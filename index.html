@@ -51,8 +51,8 @@
     	font-size: 11px;
     	font-weight: 800;
 	    opacity: 0.9;
-	    min-width: 30%;
-	    top: 80%;
+	    min-width: 150px;
+	    
 	    left: 15px;
     }
     .img_header {
@@ -106,8 +106,11 @@
 	    padding: 3px 10px;
 	    font-weight: 700;
 		}
+		.dropdown:hover .dropdown-menu {
+    display: block;
+}
 		.pre_footer {
-			padding-top: 30px;
+			padding-top: 50px;
 			padding-bottom: 30px;
 		}
 		.newsletter_input {
@@ -134,9 +137,18 @@
 	    margin-top: 35px;
 		}
   </style>
+
 </head>
 <body>
-
+	<script>
+		$(document).ready(function($) {
+			$('.dropdown').css('background-color', 'white !important');
+			$('#cultura').css('color', '#001C3A !important');
+			$('#cultura').click( function() {
+				location.href = "sites/cultura.html"
+			})	
+		});
+	</script>
  <nav class="navbar navbar-default">
   <div class="container-fluid">
   	<div class="row">
@@ -158,9 +170,9 @@
       <ul class="nav navbar-nav">
         <li><a href="#">ACTUALIDAD</a></li>
         <li class="dropdown">
-          <a href="www.google.com" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CULTURA <span class="caret"></span></a>
+          <a href="www.google.com" class="dropdown-toggle" id="cultura" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CULTURA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"><span style="color: white; font-size: 14px; font-weight: 800;">-&nbsp;</span>MÚSICA</a></li>
+            <li><a href="sites/musica.html"><span style="color: white; font-size: 14px; font-weight: 800;">-&nbsp;</span>MÚSICA</a></li>
             <li><a href="#"><span style="color: white; font-size: 14px; font-weight: 800;">-&nbsp;</span>LITERATURA</a></li>
             <li><a href="#"><span style="color: white; font-size: 14px; font-weight: 800;">-&nbsp;</span>TEATRO</a></li>
             <li><a href="#"><span style="color: white; font-size: 14px; font-weight: 800;">-&nbsp;</span>CINE</a></li>
@@ -191,40 +203,6 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-
-	<!-- <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li>
-        	<a href="#">Messages</a>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group input-group">
-          <input type="text" class="form-control" placeholder="Search..">
-          <span class="input-group-btn">
-            <button class="btn btn-default" type="button">
-              <span class="glyphicon glyphicon-search"></span>
-            </button>
-          </span>        
-        </div>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
   
 <div class="container-fluid text-center">    
   <div class="row">
@@ -277,61 +255,14 @@
 	</div>
 </div>
 
-<!-- <div class="container-fluid">
-	<div class="row">
-	<div class="uno"><img class="img-responsive" src="images/image1.png" alt=""></div>
-	<div class="dos"><img class="img-responsive" src="images/image2.png" alt=""></div>
-	</div>
-</div> -->
+
 <footer class="container-fluid text-center">
 	<div class="footer_div">
   	<span class="text_footer">Dirección General de Televisión Universitaria. Av. Insurgentes Sur 3000, Cuidad de México, Del.Coyoacan, CP. 04510 Todos Los Derechos Reservados 2016.</span>
-		<img class="img-responsive" style="float: right" src="images/unam_footer.png" alt=""></img>
+		<img class="img-responsive" src="images/unam_footer.png" alt=""></img>
 	</div>
 </footer>
 	
-<!-- <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        <img alt="Brand" id="img_unam" class="img-responsive center-block" src="images/header_unam.png">
-      </a>
-    </div>
-  </div>
-</nav> -->
-
-	
-
-
-
-
-<!-- container right -->
-<!-- <div class="container-fluid">
-	<div class="row">
-		<div class="pre_footer">
-			<div id="ii" class="col-xs-3">a</div>
-			<div id="ii" class="col-xs-3">b</div>
-			<div id="ii" class="col-xs-3">c</div>
-			<div id="ii" class="col-xs-3">d</div>
-		</div>
-	</div>
-</div>
-</section>
-<footer class="footer">
-
-	<div class="container-fluid">
-		<div class="col-xs-9">
-			<p id="footer_text" class="navbar-text navbar-left">Dirección General de Televisión Universitaria. Av. Insurgentes Sur 3000, Cuidad de México, Del.Coyoacan, CP. 04510 Todos Los Derechos Reservados 2016.</p>
-		</div>
-		<div class="col-xs-3">
-			<img id="footer_unam" class="img-responsive center-block" src="images/footer2.png"></img>
-		</div>
-	</div>
-</footer> -->
-	
-
-	
-  
    
 </body>
 </html>
