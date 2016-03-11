@@ -143,10 +143,20 @@
 	<script>
 		$(document).ready(function($) {
 			$('.dropdown').css('background-color', 'white !important');
-			$('#cultura').css('color', '#001C3A !important');
+			// $('#cultura').css('color', '#001C3A !important');
+			// $("#actualidad").attr('style',  'color: white !important;');
+
 			$('#cultura').click( function() {
 				location.href = "sites/cultura.html"
 			})	
+
+			$('#actualidad').click( function() {
+				location.href = "sites/actualidad.html"
+			});
+
+			$('#deportes').click( function() {
+        location.href = "sites/deportes.html"
+      });
 		});
 	</script>
  <nav class="navbar navbar-default">
@@ -168,7 +178,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">ACTUALIDAD</a></li>
+        <li><a id="actualidad" href="#">ACTUALIDAD</a></li>
         <li class="dropdown">
           <a href="www.google.com" class="dropdown-toggle" id="cultura" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CULTURA <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -186,7 +196,9 @@
             <li><a href="#"><span style="color: white; font-size: 14px; font-weight: 800;">-&nbsp;</span>INVESTIGACIÓN</a></li>
           </ul>
         </li>
-        <li><a href="#">DEPORTE</a></li>
+        <li>
+        	<a id="deportes" href="#">DEPORTE</a>
+        </li>
         <li><a href="#">PROGRAMACIÓN</a></li>
       </ul>
       <form class="navbar-form navbar-left" role="search">
