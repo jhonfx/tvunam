@@ -1,0 +1,41 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.icons-container {
+	 margin: 5px;
+}
+
+.icons-container > i {
+	margin: 5px;
+}
+
+.contact-container {
+	margin: 5px;
+}
+
+.contact-container > i {
+	margin: 5px;
+}
+
+.we-container {
+	margin: 5px;
+}
+
+.we-container > i {
+	margin: 5px;
+}
+
+.title-notice-1 {
+	color: red;
+    position: absolute;
+    display: block;
+    width: 220px;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 35px;
+    font-size: 60px;
+    line-height: 55px;
+}
