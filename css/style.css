@@ -1,0 +1,146 @@
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+div {
+	/*border: 1px solid red;*/
+}
+.col-md-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.col-lg-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.col-xs-2 {
+  padding-right: 0 !important;
+  padding-left: 0 !important; 
+}
+
+.col-xs-6 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.col-xs-12 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.col-xs-8 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	width: 61.666667% !important;
+}
+.col-xs-4 {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	width: 38.333333% !important;
+}
+.navbar {
+	margin-bottom: 0 !important;
+	min-height: 80px !important;
+	background-color: none !important;
+}
+.dropdown-menu {
+	background-color: #E8B365;
+	font-size: 11px;
+	font-weight: 800;
+  opacity: 0.9;
+  min-width: 150px;
+  
+  left: 15px;
+}
+
+.img_header {
+	max-width: 80%;
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+	.img_header {
+		max-width: 35% !important;
+	}    	
+}
+
+.img_header_right {
+  margin-top: 30px;
+  width: 140px;
+  float: right;
+  margin-right: -20px;
+}
+.navbar-nav {
+  margin-top: 30px;
+  background-color: none !important;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #06195C !important;
+}
+.nav .open>a {
+  background-color: none !important;
+}
+.navbar-nav  .open>a:hover {
+  background-color: none !important;
+}
+.navbar-form {
+  margin-top: 35px;
+}
+
+
+/*@media (min-width: 768px) and (max-width: 1900px) {
+  .img_header {
+    max-width: 35% !important;
+  }     
+}*/
+.text_footer {
+  float: left;
+  font-size: 15px;
+  color: #06195C;
+  font-weight: 500;
+  margin-top: 15px;
+  width: 100%
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1680px) {
+	.text_footer {
+			float: left;
+	    font-size: 15px !important;
+	    color: #06195C;
+	    font-weight: 500;
+	    margin-top: 35px;
+      width: 100%;
+		}
+}
+.dropdown-toggle {
+	background-color: none !important;
+}
+.dropdown-menu > li > a {
+  padding: 3px 10px;
+  font-weight: 700;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.pre_footer {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.newsletter_input {
+	margin-top: 4px;
+	width: 220px;
+	margin-left: 10px;
+}
+footer {
+	background-color: white;
+	color: #06195C;
+}
+.footer_div {
+	max-width: 100%;
+/* height: 100% !important; */
+	height: 100px;
+	margin: auto;
+}
+
