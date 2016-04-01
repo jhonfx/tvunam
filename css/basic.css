@@ -1,5 +1,15 @@
+@font-face {
+    font-family: NexaB;
+    src: url(fonts/NexaBold.otf);
+}
+
+@font-face {
+    font-family: NexaL;
+    src: url(fonts/NexaLight.otf);
+}
+
 body {
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'NexaL', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 }
