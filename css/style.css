@@ -6,6 +6,9 @@ footer {
 div {
 	/*border: 1px solid red;*/
 }
+span {
+	color: #06195C;
+}
 .col-md-6 {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -56,16 +59,32 @@ div {
 
 .img_header {
 	max-width: 80%;
+	margin-left: 60px;
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
 	.img_header {
 		max-width: 35% !important;
+		margin-left: 20px;
+	}    	
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+	.img_header {
+		max-width: 100% !important;
+		margin-left: 20px;
+	}    	
+}
+
+@media (min-width: 480px) and (max-width: 766px) {
+	.img_header {
+		max-width: 100% !important;
+		margin-left: 20px;
 	}    	
 }
 
 .img_header_right {
-  margin-top: 30px;
+  margin-top: 16px;
   width: 140px;
   float: right;
   margin-right: -20px;
@@ -86,7 +105,7 @@ div {
   background-color: none !important;
 }
 .navbar-form {
-  margin-top: 35px;
+  margin-top: 27px;
 }
 
 
@@ -99,20 +118,20 @@ div {
   float: left;
   font-size: 15px;
   color: #06195C;
-  font-weight: 500;
+  font-weight: 800;
   margin-top: 15px;
   width: 100%
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1680px) {
 	.text_footer {
-			float: left;
-	    font-size: 15px !important;
-	    color: #06195C;
-	    font-weight: 500;
-	    margin-top: 35px;
-      width: 100%;
-		}
+		float: left;
+		font-size: 15px !important;
+		color: #06195C;
+		font-weight: 800;
+		margin-top: 35px;
+		width: 100%;
+	}
 }
 .dropdown-toggle {
 	background-color: none !important;
