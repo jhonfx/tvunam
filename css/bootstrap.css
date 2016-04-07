@@ -4178,19 +4178,23 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .navbar-header {
     float: left;
     width: 20%;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px){
+@media (min-width: 1025px) and (max-width: 1280px){
   .navbar-header {
     float: left;
     width: 15%;
   }
 }
+
+
+
+
 .navbar-collapse {
   padding-right: 15px;
   padding-left: 15px;

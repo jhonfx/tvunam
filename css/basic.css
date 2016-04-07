@@ -44,8 +44,8 @@ div {
 
 .notice-2 {
 	max-width: 840px;
-  max-height: 445px;
-  border: 1px solid red;
+  max-height: 450px;
+  /*border: 1px solid red;*/
   display: flex;
 }
 
@@ -53,7 +53,7 @@ div {
 	.notice-2 {
 		max-width: 840px;
 	  max-height: 270px;
-	  border: 1px solid red;
+	  /*border: 1px solid red;*/
 	  display: flex;
 	}
 }
@@ -62,7 +62,7 @@ div {
 	.notice-2 {
 		max-width: 840px;
 	  max-height: 340px;
-	  border: 1px solid red;
+	  /*border: 1px solid red;*/
 	  display: flex;
 	}
 }
@@ -71,7 +71,7 @@ div {
 	.notice-2 {
 		max-width: 840px;
 	  max-height: 365px;
-	  border: 1px solid red;
+	  /*border: 1px solid red;*/
 	  display: flex;
 	}
 }
